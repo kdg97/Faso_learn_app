@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.UpdateUserView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_descr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="cliquez sur un utilisateur pour le modifier"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <SearchView
+            android:id="@+id/search_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="45px"
+            android:layout_marginBottom="20px"
+            android:background="@drawable/search_design"
+            android:iconifiedByDefault="false"
+            android:queryHint="Rechercher avec le mail" />
+
+        <TextView
+            android:id="@+id/no_update_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="#838080"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/list_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

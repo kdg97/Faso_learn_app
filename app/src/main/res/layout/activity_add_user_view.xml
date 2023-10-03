@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AddUserView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#59AFAEAE"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/title_up"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginTop="50px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titre_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Ajouter des utilisateurs"
+                android:textAlignment="center"
+                android:textColor="#6200ED"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/first_up"
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/nom_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/field_design"
+                android:ems="10"
+                android:hint="Entrer le nom"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textColor="#021D20"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_up"
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/prenom_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/field_design"
+                android:ems="10"
+                android:hint="Entrer le prénom"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third_up"
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:orientation="horizontal"
+            tools:visibility="visible">
+
+            <EditText
+                android:id="@+id/email_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/field_design"
+                android:ems="10"
+                android:hint="Entrer l'adresse mail"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:width="400dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Enregistrer"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/res_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#9C2B2B"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

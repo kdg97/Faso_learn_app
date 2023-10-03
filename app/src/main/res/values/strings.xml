@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">faso_learn</string>
+    <string name="bienvenu_faso_lean_premi_re_palteforme_de_de_cours_en_ligne_au_burkina_faso_nous_vous_proposons_des_divers_et_vari_avec_les_meilleurs_encadrants_sur_le_plan_national_et_sur_le_plan_international">Bienvenu à faso lean première palteforme de de cours en ligne au Burkina Faso. Nous vous proposons des divers et varié avec les meilleurs encadrants sur le plan national et sur le plan international</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="modifier">Modifier</string>
+    <string name="tous_les_utilisateurs">Tous les utilisateurs</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="nom">Nom :</string>
+    <string name="textview">TextView</string>
+    <string name="uuu">TextView</string>
+    <string name="o">TextView</string>
+    <string name="matricule">Matricule :</string>
+    <string name="textvie">TextView</string>
+    <string name="pr_nom">Prénom :</string>
+    <string name="email">Email :</string>
+</resources>
